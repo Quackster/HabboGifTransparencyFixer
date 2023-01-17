@@ -48,7 +48,7 @@ public void SetTransparencyLayer(string inputFile, string outputFile, byte r, by
     
     Array.Copy(colorTableBytes, 0, gifBytes, colorTableStart, colorTableLength);
     File.WriteAllBytes(outputFile, gifBytes);
-    
+}
 ```
 
 ```
