@@ -2,7 +2,7 @@
 
 A short little tool that changes the transparency layer of a .gif file to have the RGB values of 255,255,255 instead of 0,0,0 to fix transparency in Habbo Shockwave client versions. No tools expose this easily through any existing image editing API, so we edit the bytes of the .gif itself.
 
-## Converting Colour Table
+#### Converting Colour Table
 
 The .gif must have a single frame and a "global" colour table (a single colour table used for all .gif frames, as opposed to local) to parse the bytes of the .gif correctly.
 
